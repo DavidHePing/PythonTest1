@@ -1,0 +1,14 @@
+print('a'+'b'+'c')
+print('a', 'b', 'c')
+print('apple'*2)
+a='apple'
+print(a[2])
+print(a[2:8])
+print(len(a))
+b = 'An apple a day, keeps the doctor away.'
+print(b.split())
+print(b.split(','))
+print(b.split('7'))
+print(b.split('.'))
+print(','.join(b.split()))
+print(a[::-1])
