@@ -1,3 +1,6 @@
+from functools import reduce
+
+
 print('a'+'b'+'c')
 print('a', 'b', 'c')
 print('apple'*2)
@@ -12,3 +15,5 @@ print(b.split('7'))
 print(b.split('.'))
 print(','.join(b.split()))
 print(a[::-1])
+c = 'aabbccdde'
+print(chr(reduce(lambda x,y: x^ord(y), c, 0)))
