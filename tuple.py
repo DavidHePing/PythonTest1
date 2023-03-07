@@ -1,6 +1,7 @@
 tpl = (1, 3, 'XD', '9', 123)
 print(tpl)
 print(tpl[1])
+print(tpl[2])
 # tpl[1] = 100 #failed
 a,b,c,d,e = tpl
 print(a,b,c,d,e)
