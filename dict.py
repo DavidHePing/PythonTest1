@@ -14,3 +14,5 @@ del dic[4]
 print(dic)
 dic.clear()
 print(dic)
+dic.update({5:50, 6:60})
+print(dic)
