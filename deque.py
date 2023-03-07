@@ -1,0 +1,18 @@
+from collections import deque
+d = deque('abcde')
+print(d)
+print(d.pop())
+print(d.popleft())
+print(d)
+print(d[0])
+print(d[-1])
+d.append('XDFES')
+d.appendleft('YES')
+print(d)
+d.extend(['e', 'f', 'g'])
+d.extendleft(['1', '0'])
+print(d)
+d.rotate(1) #let last n element to first
+print(d)
+d.rotate(-1)
+print(d)
