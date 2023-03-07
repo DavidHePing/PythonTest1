@@ -6,5 +6,5 @@ print(count_score)
 print(Counter(names))
 print(count_score.most_common(2))
 item, count = count_score.most_common(2)[0]
-print(item)
-print(count)
+print(item, count_score.most_common(2)[0][0])
+print(count, count_score.most_common(2)[0][1])
