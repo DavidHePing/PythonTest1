@@ -8,3 +8,4 @@ print(map['c1'])# find first value, so be 3
 print(map['c2']) 
 print(map['b2']) 
 print('b4' in map) 
+# print(map['b4']) #failed
