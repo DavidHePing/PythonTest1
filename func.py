@@ -1,3 +1,5 @@
+from ast import List
+
 def sum(a=100, b=100):
     return a+b
 
@@ -21,3 +23,9 @@ def home3():
 home1()
 home2()
 home3()
+
+def genList():
+	return 1,2,3
+
+print(genList())
+print(type(genList()))
