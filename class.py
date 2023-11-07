@@ -13,3 +13,5 @@ print(ming.name)
 print(ming.showName())
 print(ming.showScores())
 print(ming._Student__scores)# read private property = =?
+
+# may = Student() #failed
