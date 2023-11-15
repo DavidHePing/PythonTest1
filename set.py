@@ -17,3 +17,6 @@ st3 = {'A', 'C', 'E'}
 st4 = {'A', 'B','C', 'D','E'}
 print(st1 <= st2)
 print(st3 <= st4)
+st3.remove('A')
+#st3.remove('D') exception
+print(st3)

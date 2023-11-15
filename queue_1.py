@@ -6,6 +6,7 @@ q.put(1)
 q.put('a')
 q.put(3)
 q.put("aaa")
+#print(len(q)) no len
 
 result = []
 while not q.empty():

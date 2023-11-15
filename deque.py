@@ -16,3 +16,4 @@ d.rotate(1) #let last n element to first
 print(d)
 d.rotate(-1)
 print(d)
+print(len(d))
