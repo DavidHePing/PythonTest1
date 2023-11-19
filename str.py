@@ -21,3 +21,7 @@ print(chr(reduce(lambda x,y: x^ord(y), c, 0)))
 words = ["1", "0", "1", "0"]
 d = "".join(words)
 print(d)
+
+print(1)
+print("1")
+print(str(1))
