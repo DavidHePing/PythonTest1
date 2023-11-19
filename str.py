@@ -17,3 +17,7 @@ print(','.join(b.split()))
 print(a[::-1])
 c = 'aabbccdde'
 print(chr(reduce(lambda x,y: x^ord(y), c, 0)))
+
+words = ["1", "0", "1", "0"]
+d = "".join(words)
+print(d)

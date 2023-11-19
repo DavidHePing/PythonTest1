@@ -1,0 +1,6 @@
+print(int("1010101", 2))
+print(int("23"))
+print(int('1'))
+print(ord('1'))
+print(ord('A'))
+print(ord('a'))
