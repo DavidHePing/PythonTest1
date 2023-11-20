@@ -10,3 +10,6 @@ item, count = count_score.most_common(2)[0]
 print(item, count_score.most_common(2)[0][0])
 print(count, count_score.most_common(2)[0][1])
 [print(key,count) for key,count in count_score.items()]
+a = ["MMMPPGG"]
+count_a = Counter(a)
+print(count_a)
