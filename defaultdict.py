@@ -16,6 +16,9 @@ for key,value in key_values:
 
 print(multi_dict)
 
+for key, value in multi_dict.items():
+      print(key, value)
+
 counter_dict = defaultdict(int)
 a_list = ['a','b','x','a','a','b','z']
 
