@@ -5,8 +5,8 @@ print(list(range(8)))
 print(list(range(1,5)))
 print(list(range(2,10)))
 print(list(range(1,20,2)))
-list = [0] * 5
-print(list)
+list1 = [0] * 5
+print(list1)
 list2 = []
 #list2[0] = 1 # Exception! 
 
@@ -15,3 +15,9 @@ print(li)
 
 li2 = [li[i][j] for i in range(3) for j in range(3) ]
 print(li2)
+
+li3 = list(range(4))
+print(li3)
+
+prefix_sum = [sum(li3[:i+1]) for i in range(len(li3))]
+print(prefix_sum)
