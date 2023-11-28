@@ -21,3 +21,6 @@ print(li3)
 
 prefix_sum = [sum(li3[:i+1]) for i in range(len(li3))]
 print(prefix_sum)
+
+a, b = [1,2]
+print(a,b)
