@@ -24,3 +24,7 @@ print(prefix_sum)
 
 a, b = [1,2]
 print(a,b)
+#c,d = [1,2,3] #exception
+a,b = ["a", "b"]
+print(a, b)
+
