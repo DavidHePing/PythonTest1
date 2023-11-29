@@ -14,3 +14,6 @@ print(sum((team2 | team3).values()))
 print(list(team1))
 print(team1)
 print([key for key in Counter(team1)])
+
+a = "00000000000000000000000000001011"
+print(Counter(a))
