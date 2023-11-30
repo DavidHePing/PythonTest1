@@ -9,3 +9,6 @@ print(1/2)
 print(abs(1-2))
 print(abs(1-5))
 print(abs(2-1))
+
+print(10*9)
+print(10**9)
