@@ -20,3 +20,6 @@ print(st3 <= st4)
 st3.remove('A')
 #st3.remove('D') exception
 print(st3)
+
+st4 = sorted(st3)
+print(st4)
