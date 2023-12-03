@@ -11,3 +11,9 @@ print(counter)
 print(Counter(['a','a','n']))
 print(Counter({'a':2,'n':1}))
 print(Counter(a=2,n=1))
+
+for key, item in counter.items():
+    print(key, item)
+
+print("a" in counter)
+print("h" in counter)
