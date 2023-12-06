@@ -28,3 +28,8 @@ print(a,b)
 a,b = ["a", "b"]
 print(a, b)
 
+li = list(range(10))
+
+for i in range(1, len(li)):
+    print(li[-i-1])
+
