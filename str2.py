@@ -12,3 +12,7 @@ a = "abcdefg"
 print(sorted(a, reverse=True))
 c= "".join(sorted(a, reverse=True))
 print(c)
+
+d = "123"
+c = 4
+print(d+str(c))
