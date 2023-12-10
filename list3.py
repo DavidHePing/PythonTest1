@@ -33,3 +33,8 @@ li = list(range(10))
 for i in range(1, len(li)):
     print(li[-i-1])
 
+print(li[-2:])
+print(li.pop(-1))
+print(li.pop(-1))
+print(li)
+

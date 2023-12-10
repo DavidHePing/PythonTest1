@@ -16,3 +16,8 @@ print(c)
 d = "123"
 c = 4
 print(d+str(c))
+
+print(f"+++ {d}")
+
+e = "123456789"
+print(e[:-2])

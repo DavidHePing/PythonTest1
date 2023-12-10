@@ -8,3 +8,8 @@ print(empty_matrix)
 
 matrix3 = np.zeros((3,3,3))
 print(matrix3)
+
+int_array = np.arange(1, 10).reshape(3, 3)
+print(int_array)
+int_array = np.zeros((3, 3), dtype=int)
+print(int_array)
