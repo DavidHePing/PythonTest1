@@ -17,3 +17,7 @@ for key, item in counter.items():
 
 print("a" in counter)
 print("h" in counter)
+
+li2 = Counter([1,2,2,3,3,3,3,3,4,4,5,5,5])
+print(li2.get(2))
+print(li2.get(3))
