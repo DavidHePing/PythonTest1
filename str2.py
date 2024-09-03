@@ -21,3 +21,6 @@ print(f"+++ {d}")
 
 e = "123456789"
 print(e[:-2])
+
+for ch in e:
+    print(ch)
