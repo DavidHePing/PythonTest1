@@ -25,5 +25,7 @@ print(e[:-2])
 for ch in e:
     print(ch)
 
-print(e[8:9])
-print(e[7:9])
+f = "leetscode"
+print(f[8:9])
+print(f[7:9])
+print(f[5:9])
