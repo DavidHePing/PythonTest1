@@ -2,6 +2,8 @@ from collections import OrderedDict
 
 scores = OrderedDict([('James', 80), ('Andy', 70), ('Curry', 100)])
 print(scores)
+print('aaa' in scores)
+print('James' in scores)
 print(scores['James'])
 scores['Harden'] = 95
 print(scores)
