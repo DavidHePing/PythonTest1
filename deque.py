@@ -1,6 +1,8 @@
 from collections import deque
 d = deque('abcde')
+print(len(d))
 print(d)
+print(d[0])
 print(d.pop())
 print(d.popleft())
 print(d)
