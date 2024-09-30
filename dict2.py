@@ -8,6 +8,10 @@ print(dic.get(200, -100))
 print(len(dic))
 
 dic3 = {5: 50, 4: 40, 7: 70, 6: 60}
+
+for key in dic3:
+    print(key)
+
 for key, val in dic3.items():
     print(key, val)
 
