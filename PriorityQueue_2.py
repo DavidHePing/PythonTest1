@@ -7,7 +7,11 @@ q.put(1)
 q.put(2)
 q.put(3)
 
-print(q.qsize())
+print("length:", q.qsize())
+print(q.queue[0])
+print(q.queue[1])
+print(q.queue[2])
+
 while not q.empty():
     print(q.get(), end=" ")
 print(" ")
