@@ -7,6 +7,7 @@ q.put(1)
 q.put(2)
 q.put(3)
 
+print(q.qsize())
 while not q.empty():
     print(q.get(), end=" ")
 print(" ")
