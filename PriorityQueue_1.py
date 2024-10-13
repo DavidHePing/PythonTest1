@@ -7,6 +7,8 @@ q.put((3, "Priority 3"))
 q.put((1, "Priority 1"))
 q.put((2, "Priority 2"))
 
+print(q.queue[0])
+print(q.queue[0][1])
 result = []
 while not q.empty():
     result.append(q.get())
