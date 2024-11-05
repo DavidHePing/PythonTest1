@@ -29,3 +29,6 @@ f = "leetscode"
 print(f[8:9])
 print(f[7:9])
 print(f[5:9])
+
+for i in range(len(f)):
+    print(f[:i] + f[i:])
